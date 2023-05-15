@@ -26,11 +26,11 @@ botaoAlterarTema.addEventListener("click", ()=>{
     body.classList.toggle("modo-escuro");
     if(modoEscuroAtivo){
         
-        imagemBotaoTrocaTema.setAttribute("src", "./imagens/sun.png"); 
+        imagemBotaoTrocaTema.setAttribute("src", "src/imagens/sun.png"); 
         
     } else {
         
-        imagemBotaoTrocaTema.setAttribute("src", "./imagens/moon.png")
+        imagemBotaoTrocaTema.setAttribute("src", "src/imagens/moon.png")
         // imagemLogoPokebola.setAttribute("src", "./imagens/purple-bol.png")
         
         
